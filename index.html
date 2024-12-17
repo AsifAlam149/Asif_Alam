@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Photography portfolio showcasing different categories and booking sessions.">
+  <title>Photography Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">Photography Portfolio</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#booking">Book a Session</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="intro">
+      <h1>WELCOME TO MY PHOTOGRAPHY PORTFOLIO</h1>
+      <p>Capturing moments that tell a story. Explore my work and book a session today!</p>
+    </div>
+  </section>
+  <br>
+
+  <section id="categories">
+    <h2>SOME OF MY RECENT WORKS </h2>
+    <div class="category-gallery">
+      <div class="category">
+        <p>NATURE</p>
+        <img src="photo1.1.jpg" alt="Nature Photography">
+        <img src="photo1.2.jpg" alt="Nature Photography">
+        <img src="photo1.3.jpg" alt="Nature Photography">
+      </div>
+      <div class="category">
+        <p>PORTRAITS</p>
+        <img src="photo2.1.jpg" alt="Portrait Photography">
+        <img src="photo2.2.jpg" alt="Portrait Photography">
+        <img src="photo2.3.jpg" alt="Portrait Photography">
+        
+      </div>
+      <div class="category">
+        <p>EVENTS</p>
+        <img src="photo3.1.jpg" alt="Event Photography">
+        <img src="photo3.2.jpg" alt="Event Photography">
+        <img src="photo3.3.jpg" alt="Event Photography">
+        
+      </div>
+    </div>
+  </section>
+
+
+  <section id="booking">
+    <h2>Book a Session</h2>
+    <p align="center">Ready to create unforgettable memories? Fill out the form below to book your session.</p>
+    <form id="booking-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="category">Select Photography Category</label>
+      <select id="category" name="category">
+        <option value="nature">Nature</option>
+        <option value="portraits">Portraits</option>
+        <option value="events">Events</option>
+      </select>
+
+      <label for="date">Preferred Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+    <div id="form-message"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact:</h2>
+    <p>If you have any questions, feel free to reach out!</p>
+    <p>Email: <a href="mailto:photographer@example.com">cristianoronaldo7@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Photography Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
